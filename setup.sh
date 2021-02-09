@@ -1,4 +1,4 @@
-wget --no-check-certificate -O - https://raw.githubusercontent.com/lsbina001/mysetup/main/goinstaller.sh
+wget --no-check-certificate -O - https://raw.githubusercontent.com/lsbina001/mysetup/main/goinstaller.sh | bash
 source .bashrc
 go get -u github.com/tomnomnom/assetfinder
 source .bashrc
